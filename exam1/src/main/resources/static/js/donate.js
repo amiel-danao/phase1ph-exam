@@ -12,7 +12,8 @@ function initializeDatatable(){
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [
 			    { "mData": "id"},
-				{ "mData": "amount" }
+				{ "mData": "amount" },
+				{ "mData": "response" }
 			]
  	});
 }
