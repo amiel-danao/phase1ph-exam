@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.phase1ph</groupId>
-	<artifactId>exam1</artifactId>
+	<artifactId>exam2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exam1</name>
-	<description>Exam 1 Web Application</description>
+	<name>exam2</name>
+	<description>Simple REST API Application</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

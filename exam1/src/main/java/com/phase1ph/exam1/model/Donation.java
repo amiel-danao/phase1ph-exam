@@ -20,16 +20,12 @@ public class Donation {
 	public Donation() {
 		super();
 	}
-	
-	
 
 	public Donation(float amount, String response) {
 		super();
 		this.amount = amount;
 		this.response = response;
 	}
-
-
 
 	public long getId() {
 		return id;

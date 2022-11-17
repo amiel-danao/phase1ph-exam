@@ -22,10 +22,10 @@ public class DonationServiceImp implements DonationService {
 	}
 
 	@Override
-	public void addNewDonation(float amount, String response) {
+	public Donation addNewDonation(float amount, String response) {
 		Donation donation = new Donation(amount, response);
 		
-		donationRepository.save(donation);		
+		return donationRepository.save(donation);
 	}
 
 }

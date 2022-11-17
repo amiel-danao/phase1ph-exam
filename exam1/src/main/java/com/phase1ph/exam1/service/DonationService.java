@@ -7,5 +7,5 @@ import com.phase1ph.exam1.model.Donation;
 
 public interface DonationService {
 	public List<Donation> getAllDonations();
-	public void addNewDonation(float amount, String response);
+	public Donation addNewDonation(float amount, String response);
 }
